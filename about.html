@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>HomePage</title>
+        <style>
+            body {
+                background: black;
+                color: white;
+            }
+            table {
+                width: 100%;
+                height: 100%;
+                text-align: center;
+            }
+            .head {
+                height : 15%
+            }
+            .nav {
+                height : 10%
+            }
+            .nav > * {
+                width : 25%
+            }
+            .body {
+                height : 50%
+            }
+            img {
+                height : 100px;
+                width : 160px;
+            }
+            #title {
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: bold;
+                color: blue;
+                font-size: 20px;
+            }
+            a {
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+                color: white;
+                text-underline-position: above;
+            }
+            #log {
+                border: 1px solid blue;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr class = "head">
+                <td id = "log">
+                    <img src = "cool.jpg"/>
+                </td>
+                <td colspan="2"><p id = "title">jil jil Coolers</p><hr></td>
+                <td>
+                    <table id = "log">
+                        <tr>
+                            <td><a href="login.html">login</a></td>
+                            <td><a href="">sign up</a></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input placeholder="search.."/></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr class = "nav">
+                <td><a href="HomePage.html">Home<hr width=10></a></td>
+                <td><a href="products.html">Products<hr width=10></a></td>
+                <td><a href="contact.html">ContactUs<hr width=10></a></td>
+                <td><a href="about.html">AboutUs<hr width=10></a></td>
+            </tr>
+            <tr class = "body">
+                <td>
+                    <table id = "log">
+                        <tr><td><a href="HomePage.html">Home</a> <hr width=50></td></tr>
+                        <tr><td><a href="products.html">Products</a> <hr width=50></td></tr>
+                        <tr><td><a href="contact.html">ContactUs</a> <hr width=50></td></tr>
+                        <tr><td><a href="about.html">AboutUs</a> <hr width=50></td></tr>
+                    </table>
+                </td>
+                <td colspan="3" id="log">you've selected ABOUT US</td>
+            </tr>
+            <tr class = "foot">
+                <td colspan = "2" >©2010-2020 IBM.. All rights</td>
+                <td colspan = "2">
+                    <a href="">privacy</a> |
+                    <a href="">disclaimer</a> |
+                    <a href="">terms of use</a>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
